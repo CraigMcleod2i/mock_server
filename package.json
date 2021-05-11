@@ -1,0 +1,19 @@
+{
+  "name": "craigmockserver",
+  "version": "1.0.0",
+  "description": "Mock server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch server.js"
+  },
+  "author": "Craig",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "cryptojs": "^2.5.3",
+    "faker": "^5.5.3",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21"
+  }
+}
