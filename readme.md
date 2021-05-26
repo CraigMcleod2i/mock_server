@@ -12,6 +12,7 @@
 ``` 
 docker inspect <container ID>
 ```
+* Note the IP address from the response
 * Now add the --host flag and IP address to the package.json start script
 ```
 "start": "json-server --watch server.js --host 172.17.0.2"
