@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch server.js --host 172.17.0.2"
+    "start": "json-server --watch server.js --host ${NODE_ENV}"
   },
   "author": "Craig",
   "license": "ISC",
